@@ -1,0 +1,26 @@
+.grid{
+    padding:10px;
+    background-color:rgb(43, 87, 54) ;
+    border: 1px silver;
+    text-align: center;
+    font-size: 22px;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.grid_body{
+    display: grid;
+
+    grid-template-columns: auto 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.grid_item{
+    text-align: center;
+    border: 2px dashed rgb(66, 142, 185);
+    padding: 30px;
+}
+
+.body{
+    background-image: url (1676547224_catherineasquithgallery-com-p-kartinka-zelenii-fon-s-listochkami-92jp);
+}
